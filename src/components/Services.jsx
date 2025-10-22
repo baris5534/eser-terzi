@@ -6,9 +6,9 @@ export default function Services({ services }) {
       </h2>
 
       <p className="max-w-2xl mx-auto text-center text-gray-300 mb-10">
-        Her bütçeye uygun, şeffaf fiyatlarla profesyonel terzilik hizmeti sunuyoruz.
-        Aşağıdaki fiyatlar ortalama başlangıç ücretleridir; detaylar için lütfen
-        iletişime geçin.
+        Her bütçeye uygun, şeffaf fiyatlarla profesyonel terzilik hizmeti
+        sunuyoruz. Aşağıdaki fiyatlar ortalama başlangıç ücretleridir; detaylar
+        için lütfen iletişime geçin.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -19,16 +19,23 @@ export default function Services({ services }) {
           >
             <div className="flex items-center justify-between">
               <div>
-                <h3 className="text-lg font-semibold text-white">{service.name}</h3>
+                <h3 className="text-lg font-semibold text-white">
+                  {service.name}
+                </h3>
                 <p className="text-sm text-gray-300 mt-1">Hızlı ve güvenilir</p>
               </div>
               <div className="ml-4">
-                <span className="inline-block bg-blue-500 text-white font-bold px-4 py-2 rounded-full shadow">{service.price}</span>
+                <span className="inline-block bg-blue-500 text-white font-bold px-4 py-2 rounded-full shadow">
+                  {service.price}
+                </span>
               </div>
             </div>
 
             <div className="mt-4 text-sm text-gray-300">
-              <p>İlk muayene ve küçük tadilatlar genellikle bu fiyat aralığındadır.</p>
+              <p>
+                İlk muayene ve küçük tadilatlar genellikle bu fiyat
+                aralığındadır.
+              </p>
             </div>
           </div>
         ))}

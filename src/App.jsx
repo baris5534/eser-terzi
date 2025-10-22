@@ -4,7 +4,8 @@ import Carousel from "./components/Carousel";
 import Services from "./components/Services";
 import Products from "./components/Products";
 import Contact from "./components/Contact";
-import Promo from "./components/Promo";
+// import Promo from "./components/Promo";
+// import Paginationn from "./components/Pagination";
 
 const slideData = [
   {
@@ -89,10 +90,11 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
       <Navbar />
-  <Carousel slides={slideData} currentSlide={currentSlide} />
-  <Promo />
-  <Services services={serviceData} />
-  <Products products={products} />
+      <Carousel slides={slideData} currentSlide={currentSlide} />
+      {/* <Promo /> */}
+      <Services services={serviceData} />
+      <Products products={products} />
+      {/* <Paginationn /> */}
       <Contact />
     </div>
   );
