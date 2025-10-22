@@ -83,11 +83,6 @@ const products = [
     images: [img22, img23, img25],
   },
   {
-    name: "Kahve Kupası",
-    description: "El yapımı taş seramik kahve kupası.",
-    images: [],
-  },
-  {
     name: "Mutfak Rafı",
     description: "Doğal ahşap duvar rafı - minimalist tarz.",
     images: [img27, img28, img29],
