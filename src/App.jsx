@@ -92,7 +92,7 @@ function App() {
       <Navbar />
       <Carousel slides={slideData} currentSlide={currentSlide} />
       {/* <Promo /> */}
-      <Services services={serviceData} />
+      {/* <Services services={serviceData} /> */}
       <Products products={products} />
       {/* <Paginationn /> */}
       <Contact />

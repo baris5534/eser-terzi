@@ -53,11 +53,6 @@ const products = [
     images: [img2, img3, img4, img6, img7],
   },
   {
-    name: "Dekoratif Mum Seti",
-    description: "Kokulu mumlarla evinizin havasını değiştirin.",
-    images: [img7],
-  },
-  {
     name: "Seramik Vazo",
     description: "Modern tasarımlı el yapımı seramik vazo.",
     images: [img11, img12],
@@ -142,10 +137,10 @@ export default function Products() {
             </Swiper>
 
             <div className="p-6 space-y-">
-              <h3 className="text-xl font-semibold text-white mb-2">
+              {/* <h3 className="text-xl font-semibold text-white mb-2">
                 {product.name}
               </h3>
-              <p className="text-gray-300 mb-4">{product.description}</p>
+              <p className="text-gray-300 mb-4">{product.description}</p> */}
             </div>
           </div>
         ))}

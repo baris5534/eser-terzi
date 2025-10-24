@@ -7,9 +7,9 @@ export default function Navbar() {
           <div className="md:hidden">|</div>
           <div className="flex space-x-8 max-md:space-x-4">
            
-            <a href="#services" className="text-white hover:text-blue-400">
+            {/* <a href="#services" className="text-white hover:text-blue-400">
               Hizmetler
-            </a>
+            </a> */}
             <a href="#products" className="text-white hover:text-blue-400">
               Ürünler
             </a>
